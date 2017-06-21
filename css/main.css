@@ -131,7 +131,7 @@ footer {
   font-size: 1em;
   color: #aaa;
   text-align: center;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 
 @media (min-width: 768px) {
