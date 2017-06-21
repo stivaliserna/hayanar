@@ -1,3 +1,5 @@
+@import url('hover.css');
+
 header .logo {
   text-align: center;
   margin-top: 2em;
@@ -6,12 +8,12 @@ header .logo {
 header .logo a {
   font-family: 'Alegreya Sans', sans-serif;
   padding: 1em;
-  font-size: 4em;
+  font-size: 3em;
   text-decoration: none;
   color: #000;
 }
 
-ul li a {
+.menu ul li a {
   text-decoration: none;
   color: #aaa;
   margin: 0 1em;
@@ -20,17 +22,17 @@ ul li a {
   font-family: 'Catamaran', sans-serif;
 }
 
-ul li a,
-ul li a:after,
-ul li a:before {
+.menu ul li a,
+.menu ul li a:after,
+.menu ul li a:before {
   transition: all .5s;
 }
 
-ul li a:hover {
+.menu ul li a:hover {
   color: #555;
 }
 
-ul li a::after {
+.menu ul li a::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -43,7 +45,7 @@ ul li a::after {
   height: 1px;
 }
 
-ul li a:hover:after {
+.menu ul li a:hover:after {
   width: 100%;
 }
 
@@ -69,59 +71,71 @@ ul li a:hover:after {
   margin-top: 3em;
 }
 
-.col2 {
-  text-align: end;
+footer {
+  background-color: #100B2E;
 }
 
-.img01 {
-  background-image: url('../img/work02.jpg');
-  height: 30em;
-  background-size: cover;
-}
-
-.img02 {
-  background-image: url('../img/work03.jpg');
-  height: 30em;
-  background-size: cover;
-}
-
-.img03 {
-  background-image: url('../img/work01.png');
-  height: 30em;
-  background-size: cover;
-}
-
-.cards p {
-  padding: 0 3em 1em 3em;
-}
-
-.cards .brands {
-  padding: 0 0 0 3em;
-}
-
-.cards .title {
-  margin-top: 5em;
-  font-family: 'Martel', serif;
-  font-size: 1.2em;
-}
-
-.brands a {
-  color: #D481A3;
-}
-
-.brands a:hover {
-  text-decoration: none;
-  color: #D481A3;
-  opacity: 0.5;
-}
-
-.brands, .description {
-  color: #696868;
-  font-family: 'Catamaran', sans-serif;
-  font-size: 1.2em;
-}
-
-.cards .comment {
-  font-family: 'Reenie Beanie', cursive;
+#location, #phone, #email {
   font-size: 2em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#location {
+  color: #6F985C;
+}
+
+#phone {
+  color: #D44C4B;
+}
+
+#email {
+  color: #11978D;
+}
+
+.info p {
+  font-size: 1em;
+  color: #aaa;
+  text-align: center;
+}
+
+.info a {
+  color: #aaa;
+}
+
+.info a:hover {
+  text-decoration: none;
+  color: #8C85A6;
+  transition: all .5s
+}
+
+.social {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.social a {
+  font-size: 2em;
+  color: #aaa;
+  padding-right: 1em;
+}
+
+.social a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #8C85A6;
+  transition: all .5s
+}
+
+.copyright {
+  font-size: 1em;
+  color: #aaa;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+@media (min-width: 768px) {
+  header .logo a {
+    font-size: 4em;
+  }
 }
