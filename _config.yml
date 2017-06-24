@@ -1,3 +1,4 @@
 title: HayanaR
+repository: stivaliserna/hayanar
 github:
-  url: //localhost:3000
+  url: 'http://localhost:3000'
