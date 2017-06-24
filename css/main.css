@@ -72,35 +72,35 @@ header .logo a {
 }
 
 footer {
-  background-color: #100B2E;
+  background-color: #d8dbe4;
 }
 
 #location, #phone, #email {
   font-size: 2em;
   text-align: center;
-  padding-top: 1em;
+  padding-top: .5em;
 }
 
 #location {
-  color: #6F985C;
+  color: #DE6547;
 }
 
 #phone {
-  color: #D44C4B;
+  color: #5DC5B9;
 }
 
 #email {
-  color: #11978D;
+  color: #D42E6C;
 }
 
 .info p {
   font-size: 1em;
-  color: #aaa;
+  color: #3D313D;
   text-align: center;
 }
 
 .info a {
-  color: #aaa;
+  color: #3D313D;
 }
 
 .info a:hover {
@@ -116,22 +116,22 @@ footer {
 
 .social a {
   font-size: 2em;
-  color: #aaa;
+  color: #3D313D;
   padding-right: 1em;
 }
 
 .social a:hover {
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.7;
   color: #8C85A6;
   transition: all .5s
 }
 
 .copyright {
   font-size: 1em;
-  color: #aaa;
+  color: #3D313D;
   text-align: center;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,69 @@
+.jumbotron.jumbotron-fluid {
+  background-image: url('../img/mobile.jpg');
+  background-size: cover;
+}
+
+.jumbotron h4 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2em;
+  color: #3D313D;
+}
+
+.jumbotron h6 {
+  padding: 1em 0 0 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  color: #2F2F2F;
+}
+
+.jumbotron p {
+  padding-top: 1em;
+  font-size: 1.2em;
+  font-family: 'Catamaran', sans-serif;
+  text-align: justify;
+  color: #4C4C4C;
+}
+
+.content, .aside-info, .details, .forbidden {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+  color: #707070;
+}
+
+.course-info {
+  padding-top: 2em;
+}
+
+.content {
+  border-right: 2px solid #B2B2B2;
+  margin-bottom: 3em;
+}
+
+.content li {
+  list-style: none;
+  padding-bottom: .3em;
+}
+
+.arrow {
+  color: #C5759B;
+}
+
+.aside-info {
+  text-align: justify;
+  padding-left: 2em;
+}
+
+.price {
+  border: 1px solid #C5759B;
+  width: 8em;
+  text-align: center;
+  padding: .3em;
+  margin-left: 2em;
+}
+
+@media (min-width: 1200px) {
+  .jumbotron.jumbotron-fluid {
+    background-image: url('../img/desktop.jpg');
+    background-size: cover;
+  }
+}
