@@ -1,6 +1,7 @@
 .jumbotron.jumbotron-fluid {
   background-image: url('../img/mobile.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron h4 {
@@ -63,7 +64,8 @@
 
 @media (min-width: 1200px) {
   .jumbotron.jumbotron-fluid {
-    background-image: url('../img/desktop.jpg');
-    background-size: cover;
+    background-image: url('../img/img.png'), url('../img/mobile.jpg');
+    background-size: auto 130%, cover;
+    background-position: center left, center center;
   }
 }

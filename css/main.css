@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 2em;
+}
+
 header .logo {
   text-align: center;
   margin-top: 2em;
@@ -73,6 +77,7 @@ header .logo a {
 
 footer {
   background-color: #d8dbe4;
+  margin-top: 2em;
 }
 
 #location, #phone, #email {
