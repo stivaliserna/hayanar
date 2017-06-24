@@ -56,10 +56,12 @@ header .logo a {
 }
 
 .cards {
-  margin: 5em 0 10em 0;
+  margin-bottom: 4em;
 }
 
 .cards h4 {
+  margin-top: 2em;
+  margin-bottom: 2em;
   text-align: center;
   font-family: 'Catamaran', sans-serif;
   font-size: 2em;
