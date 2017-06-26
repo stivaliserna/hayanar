@@ -25,7 +25,7 @@
   color: #4C4C4C;
 }
 
-.content, .aside-info, .details, .forbidden {
+.content, .aside-info, .details, .price {
   font-family: 'Catamaran', sans-serif;
   font-size: 1.2em;
   color: #707070;
@@ -35,12 +35,11 @@
   padding-top: 2em;
 }
 
-.content {
-  border-right: 2px solid #B2B2B2;
-  margin-bottom: 3em;
+.course-info ul {
+  padding-left: 0;
 }
 
-.content li {
+.course-info li {
   list-style: none;
   padding-bottom: .3em;
 }
@@ -51,7 +50,6 @@
 
 .aside-info {
   text-align: justify;
-  padding-left: 2em;
 }
 
 .price {
@@ -59,7 +57,40 @@
   width: 8em;
   text-align: center;
   padding: .3em;
-  margin-left: 2em;
+}
+
+.details {
+  text-align: center;
+}
+
+.details a {
+  text-decoration: none;
+  color: #C5759B;
+}
+
+.details a:hover {
+  text-decoration: none;
+  color: #C5759B;
+  opacity: 0.5;
+  transition: all .5s
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .content {
+    border-right: 2px solid #B2B2B2;
+  }
+
+  .aside-info {
+    padding-left: 2em;
+  }
+
+  .price {
+    margin-left: 2em;
+  }
 }
 
 @media (min-width: 1200px) {
