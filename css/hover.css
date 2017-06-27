@@ -78,7 +78,8 @@
 
 @media (min-width: 992px) {
   .hovereffect i {
-    padding-top: 9em;
+    padding-top: 4em;
+    font-size: 3em;
   }
 
   .hovereffect h2 {

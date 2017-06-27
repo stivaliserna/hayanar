@@ -25,71 +25,102 @@
   color: #4C4C4C;
 }
 
-.content, .aside-info, .details, .price {
+.cover {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.cover i {
+  font-size: 4em;
+  padding: .3em;
+  color: #B8B9C2;
+  opacity: .3;
+}
+
+.cover h4 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2em;
+  color: #555;
+}
+
+.cover p {
   font-family: 'Catamaran', sans-serif;
   font-size: 1.2em;
+  padding-top: 1em;
+  color: #727378;
+}
+
+.content, .aside-info, .price {
+  font-family: 'Catamaran', sans-serif;
   color: #707070;
+}
+
+.cube {
+  height: 6em;
+  background-color: #eeeeee;
+  padding: 1em;
+  border: 5px solid #FFF;
+  font-weight: 700;
+  text-align: center;
+}
+
+.center {
+  background-color: #e91f4f;
+}
+
+.center p {
+  color: #FFF;
 }
 
 .course-info {
   padding-top: 2em;
 }
 
-.course-info ul {
-  padding-left: 0;
-}
-
-.course-info li {
-  list-style: none;
-  padding-bottom: .3em;
-}
-
-.arrow {
-  color: #C5759B;
-}
-
 .aside-info {
   text-align: justify;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  padding: 1em;
+  font-size: 1.2em;
+  margin-top: 2em;
 }
 
 .price {
-  border: 1px solid #C5759B;
-  width: 8em;
+  margin-top: 1.5em;
+  font-size: 1.3em;
   text-align: center;
-  padding: .3em;
+}
+
+.details button {
+  padding: .9em;
+  background-color: transparent;
+  border: 2px solid #e91f4f;
+  margin-top: 1em;
 }
 
 .details {
   text-align: center;
+  font-size: 1em;
 }
 
 .details a {
   text-decoration: none;
-  color: #C5759B;
+  color: #e91f4f;
+  font-weight: 600;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .details a:hover {
   text-decoration: none;
-  color: #C5759B;
+  color: #e91f4f;
   opacity: 0.5;
   transition: all .5s
 }
 
-.bold {
-  font-weight: 600;
-}
-
-@media (min-width: 768px) {
-  .content {
-    border-right: 2px solid #B2B2B2;
-  }
-
-  .aside-info {
-    padding-left: 2em;
-  }
-
-  .price {
-    margin-left: 2em;
+@media (min-width: 992px) {
+  .cube {
+    height: 4em;
   }
 }
 
