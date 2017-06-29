@@ -20,6 +20,9 @@
   filter: alpha(opacity=0);
   -webkit-transition: all 0.1s ease-out 0.1s;
   transition: all 0.5s ease-out 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hovereffect:hover .overlay {
@@ -36,9 +39,7 @@
 }
 
 .hovereffect i {
-  padding-top: 6em;
   color: #3D393C;
-  font-size: 2em;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
 }
@@ -50,7 +51,6 @@
 
 .hovereffect h2 {
   font-family: 'Catamaran', sans-serif;
-  font-size: 3em;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
@@ -67,22 +67,20 @@
 
 @media (min-width: 576px) {
   .hovereffect i {
-    padding-top: 5em;
-    font-size: 1.5em;
+    font-size: 1.6em;
+  }
+
+  .hovereffect h2 {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hovereffect i {
+    font-size: 2em;
   }
 
   .hovereffect h2 {
     font-size: 2em;
-  }
-}
-
-@media (min-width: 992px) {
-  .hovereffect i {
-    padding-top: 4em;
-    font-size: 3em;
-  }
-
-  .hovereffect h2 {
-    font-size: 3em;
   }
 }
