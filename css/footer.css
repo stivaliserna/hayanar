@@ -1,0 +1,29 @@
+footer {
+  background-color: #eaeaed;
+  margin-top: 3em;
+}
+
+.social {
+  padding-top: .4em;
+  text-align: center;
+}
+
+.social a {
+  font-size: 1.8em;
+  color: #3d4542;
+  padding-right: 1em;
+}
+
+.social a:hover {
+  text-decoration: none;
+  opacity: 0.4;
+  color: #3d4542;
+  transition: all .5s
+}
+
+.copyright {
+  font-size: 1em;
+  color: #3d4542;
+  text-align: center;
+  padding-top: .2em;
+}

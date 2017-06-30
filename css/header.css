@@ -1,0 +1,43 @@
+.navbar-toggler span i {
+  color: #aaa;
+  font-size: 1.5em;
+}
+
+.navbar-toggler span i:hover {
+  transition: all .5s;
+  opacity: .7;
+}
+
+
+.sticky-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.scrolling {
+  background-color: #FFF;
+}
+
+.sticky-menu .nav {
+  width: 100%;
+}
+
+.sticky-menu ul li a {
+  text-decoration: none;
+  color: #aaa;
+  margin: 0 1em;
+  position: relative;
+  font-size: 1.1em;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.sticky-menu ul li a:hover {
+  color: #555;
+  transition: all .5s;
+}
+
+.sticky-menu ul li a:hover:after {
+  width: 100%;
+}
