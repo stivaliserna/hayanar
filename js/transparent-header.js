@@ -10,16 +10,3 @@ function changeNavbarColor () {
 }
 
 window.addEventListener('scroll', changeNavbarColor)
-
-// const nav = document.querySelector('.navbar')
-// const background = document.querySelector('.full-background').offsetHeight
-
-// window.onscroll = function () { changeNavbarColor(background) }
-
-// function changeNavbarColor (background) {
-//   if (document.body.scrollTop > background || document.documentElement.scrollTop > background) {
-//     nav.classList.add('scrolling')
-//   } else {
-//     nav.classList.remove('scrolling')
-//   }
-// }

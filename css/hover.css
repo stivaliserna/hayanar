@@ -39,6 +39,7 @@
 }
 
 .hovereffect i {
+  font-size: 1em;
   color: #3D393C;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
@@ -50,6 +51,7 @@
 }
 
 .hovereffect h2 {
+  font-size: 1em;
   font-family: 'Catamaran', sans-serif;
   text-decoration: none;
   display: inline-block;
