@@ -1,20 +1,14 @@
 .site-nav {
   color: black;
   list-style-type: none;
+  height: 100%;
+  top: 0;
   position: fixed;
   overflow: hidden;
-  top: 0;
-  right: -700px;
-  width: 700px;
-  height: 100%;
-  transition: right .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
   opacity: .7;
   background-color: #dc6d8e;
   z-index: 1001;
-}
-
-.js-site-nav--open {
-  right: 0;
 }
 
 .site-nav ul li {
@@ -28,7 +22,7 @@
 }
 
 .site-nav ul li:first-child {
-  padding-top: 4em;
+  padding-top: 7em;
 }
 
 .site-nav ul li a {
@@ -47,18 +41,21 @@
   background-color: transparent;
   position: fixed;
   top: 20px;
-  right: 20px;
   border: 0;
   outline: 0;
-  position: fixed;
   width: 40px;
   height: 40px;
   z-index: 1001;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
   cursor: pointer;
   color: #aaa;
+}
+
+.nav-btn:focus {
+  outline: none;
 }
 
 .nav-btn-line {
@@ -67,4 +64,55 @@
   background-color: #aaa;
   display: block;
   margin: 5px auto;
+}
+
+.nav-btn-remove {
+  font-size: 2em;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.nav-btn-remove:focus {
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .nav-btn {
+    left: 20px;
+  }
+
+  .site-nav {
+    left: -100%;
+    width: 100%;
+  }
+
+  .js-site-nav--open {
+    left: 0;
+  }
+
+  .nav-btn-remove {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-nav ul li:first-child {
+    padding-top: 4em;
+  }
+
+  .nav-btn {
+    right: 20px;
+  }
+
+  .site-nav {
+    right: -700px;
+    width: 700px;
+  }
+
+  .js-site-nav--open {
+    right: 0;
+  }
 }
