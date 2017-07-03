@@ -33,9 +33,8 @@
   transition-delay: 0s;
 }
 
-.hovereffect img {
-  display: block;
-  position: relative;
+.hovereffect .img-fluid {
+  width: 100%;
 }
 
 .hovereffect i {

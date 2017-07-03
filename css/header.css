@@ -1,43 +1,70 @@
-.navbar-toggler span i {
-  color: #aaa;
-  font-size: 1.5em;
-}
-
-.navbar-toggler span i:hover {
-  transition: all .5s;
-  opacity: .7;
-}
-
-
-.sticky-menu {
+.site-nav {
+  color: black;
+  list-style-type: none;
   position: fixed;
+  overflow: hidden;
   top: 0;
-  width: 100%;
-  z-index: 1000;
+  right: -700px;
+  width: 700px;
+  height: 100%;
+  transition: right .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  opacity: .7;
+  background-color: #dc6d8e;
+  z-index: 1001;
 }
 
-.scrolling {
-  background-color: #FFF;
+.js-site-nav--open {
+  right: 0;
 }
 
-.sticky-menu .nav {
-  width: 100%;
+.site-nav ul li {
+  list-style: none;
+  padding-top: 1em;
+  font-family: 'Karla', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  text-align: end;
+  padding-right: 1em;
 }
 
-.sticky-menu ul li a {
+.site-nav ul li:first-child {
+  padding-top: 4em;
+}
+
+.site-nav ul li a {
+  color: #FFF;
   text-decoration: none;
-  color: #aaa;
-  margin: 0 1em;
-  position: relative;
-  font-size: 1.1em;
-  font-family: 'Catamaran', sans-serif;
 }
 
-.sticky-menu ul li a:hover {
-  color: #555;
+.site-nav ul li a:hover {
+  color: #FFF;
+  opacity: .4;
   transition: all .5s;
+  text-decoration: none;
 }
 
-.sticky-menu ul li a:hover:after {
-  width: 100%;
+.nav-btn {
+  background-color: transparent;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  outline: 0;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 1001;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  color: #aaa;
+}
+
+.nav-btn-line {
+  width: 30px;
+  height: 3px;
+  background-color: #aaa;
+  display: block;
+  margin: 5px auto;
 }
