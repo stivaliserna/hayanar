@@ -38,7 +38,7 @@
 }
 
 .hovereffect i {
-  font-size: 1em;
+  font-size: 3em;
   color: #3D393C;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
@@ -50,7 +50,7 @@
 }
 
 .hovereffect h2 {
-  font-size: 1em;
+  font-size: 2em;
   font-family: 'Catamaran', sans-serif;
   text-decoration: none;
   display: inline-block;
@@ -68,15 +68,15 @@
 
 @media (min-width: 576px) {
   .hovereffect i {
-    font-size: 1.6em;
+    font-size: 4em;
   }
 
   .hovereffect h2 {
-    font-size: 1.6em;
+    font-size: 3em;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .hovereffect i {
     font-size: 2em;
   }

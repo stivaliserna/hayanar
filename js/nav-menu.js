@@ -3,7 +3,8 @@ var btnRemove = document.getElementsByClassName('nav-btn-remove')[0]
 var navMenu = document.getElementsByClassName('js-site-nav')[0]
 var isMouseDown = false
 
-navToggle.addEventListener('click', function () {
+navToggle.addEventListener('click', function (event) {
+  event.preventDefault()
   this.focus()
   navMenu.classList.toggle('js-site-nav--open')
   navMenu.focus()

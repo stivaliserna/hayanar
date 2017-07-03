@@ -16,33 +16,32 @@
 
 </head>
 <body>
-
-  <button class="nav-btn nav-btn-toggle">
-    <span class="nav-btn-line"></span>
-    <span class="nav-btn-line"></span>
-    <span class="nav-btn-line"></span>
-  </button>
-  <nav class="site-nav js-site-nav" tabindex="-1" role="navigation">
-    <button class="nav-btn-remove">
-      <span><i class="icon-cross"></i></span>
+  <nav class="navbar sticky-menu">
+    <button class="nav-btn nav-btn-toggle">
+      <span class="icon-menu"></span>
     </button>
-    <ul class="nav-menu">
-      <li>
-        <a class="nav-item js-nav-item" href="{{  site.github.ul }}/hayanar/">HOME</a>
-      </li>
-      <li>
-        <a class="nav-item js-nav-item" href="#">BIO</a>
-      </li>
-      <li>
-        <a class="nav-item js-nav-item" href="{{ site.github.url }}/courses/">CURSOS</a>
-      </li>
-      <li>
-        <a class="nav-item js-nav-item" href="#">SERVICIOS</a>
-      </li>
-      <li>
-        <a class="nav-item js-nav-item" href="#">GALERÍA</a>
-      </li>
-    </ul>
+    <nav class="site-nav js-site-nav" tabindex="-1" role="navigation">
+      <ul class="nav-menu">
+        <li>
+          <a class="nav-item js-nav-item" href="{{  site.github.ul }}/hayanar/">HOME</a>
+        </li>
+        <li>
+          <a class="nav-item js-nav-item" href="#">BIO</a>
+        </li>
+        <li>
+          <a class="nav-item js-nav-item" href="{{ site.github.url }}/courses/">CURSOS</a>
+        </li>
+        <li>
+          <a class="nav-item js-nav-item" href="#">SERVICIOS</a>
+        </li>
+        <li>
+          <a class="nav-item js-nav-item" href="#">GALERÍA</a>
+        </li>
+      </ul>
+      <button class="nav-btn-remove">
+        <span><i class="icon-cross"></i></span>
+      </button>
+    </nav>
   </nav>
 
   {{ content }}

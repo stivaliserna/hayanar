@@ -1,6 +1,5 @@
 footer {
   background-color: #eaeaed;
-  margin-top: 3em;
 }
 
 .social {
@@ -12,13 +11,13 @@ footer {
   font-size: 1.8em;
   color: #3d4542;
   padding-right: 1em;
+  transition: all .5s
 }
 
 .social a:hover {
   text-decoration: none;
   opacity: 0.4;
   color: #dc6d8e;
-  transition: all .5s
 }
 
 .copyright {
