@@ -14,15 +14,15 @@
 }
 
 .site-nav {
+  background-color: #f852a4;
   color: black;
-  list-style-type: none;
   height: 100%;
-  top: 0;
-  position: fixed;
-  overflow: hidden;
-  transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  list-style-type: none;
   opacity: .7;
-  background-color: #dc6d8e;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 }
 
 .site-nav .nav-menu {
@@ -37,19 +37,20 @@
 }
 
 .site-nav ul li {
-  list-style: none;
   font-family: 'Karla', sans-serif;
   font-size: 4em;
   font-weight: 600;
-  text-align: end;
+  list-style: none;
   padding-right: 1em;
   padding-top: .4em;
+  text-align: end;
+  text-transform: uppercase;
 }
 
 .site-nav ul li a {
   color: #FFF;
-  transition: all .5s;
   text-decoration: none;
+  transition: all .5s;
 }
 
 .site-nav ul li a:hover {
@@ -59,23 +60,23 @@
 }
 
 .icon-menu {
-  color: #aaa;
-  font-size: 2em;
+  color: #555;
   display: flex;
+  font-size: 2em;
   padding: .3em;
 }
 
 .nav-btn {
   background-color: transparent;
-  position: relative;
   border: 0;
-  outline: 0;
   cursor: pointer;
+  outline: 0;
+  position: relative;
 }
 
 .nav-btn:hover {
-  cursor: pointer;
   color: #aaa;
+  cursor: pointer;
 }
 
 .nav-btn:focus,

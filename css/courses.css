@@ -1,76 +1,60 @@
-.jumbotron.jumbotron-fluid {
-  background-image: url('../img/mobile.jpg');
+.courses-background {
+  background-image: url('../img/background.jpg');
+  width: 100%;
+  height: 30em;
+  height: calc(100vh - 300px);
+  opacity: .9;
+  background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.jumbotron h4 {
-  font-family: 'Catamaran', sans-serif;
-  font-size: 2em;
-  color: #3D313D;
-}
-
-.jumbotron h6 {
-  padding: 1em 0 0 0;
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.5em;
-  color: #2F2F2F;
-}
-
-.jumbotron p {
-  padding-top: 1em;
-  font-size: 1.2em;
-  font-family: 'Catamaran', sans-serif;
-  text-align: justify;
-  color: #4C4C4C;
 }
 
 .cover {
+  margin-bottom: 1em;
   margin-top: 3em;
-  margin-bottom: 3em;
   text-align: center;
 }
 
 .cover i {
-  font-size: 4em;
-  padding: .3em;
   color: #B8B9C2;
+  font-size: 4em;
   opacity: .3;
 }
 
 .cover h4 {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 2em;
   color: #555;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8em;
+  padding-top: .5em;
 }
 
 .cover p {
-  font-family: 'Catamaran', sans-serif;
+  color: #727378;
+  font-family: 'Karla', sans-serif;
   font-size: 1.2em;
   padding-top: 1em;
-  color: #727378;
 }
 
 .content, .aside-info, .price {
-  font-family: 'Catamaran', sans-serif;
   color: #707070;
+  font-family: 'Karla', sans-serif;
 }
 
 .cube {
-  height: 6em;
-  background-color: #eeeeee;
-  padding: 1em;
+  background-color: #eaeaed;
   border: 5px solid #FFF;
   font-weight: 700;
+  height: 6em;
+  padding: 1em;
   text-align: center;
 }
 
 .center {
-  background-color: #e91f4f;
+  background-color: #f852a4;
 }
 
 .center p {
   color: #FFF;
+  font-size: 1.2em;
 }
 
 .course-info {
@@ -78,56 +62,17 @@
 }
 
 .aside-info {
-  text-align: justify;
-  border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  padding: 1em;
+  border-top: 2px solid #eeeeee;
+  color: black;
   font-size: 1.2em;
   margin-top: 2em;
-}
-
-.price {
-  margin-top: 1.5em;
-  font-size: 1.3em;
-  text-align: center;
-}
-
-.details button {
-  padding: .9em;
-  background-color: transparent;
-  border: 2px solid #e91f4f;
-  margin-top: 1em;
-}
-
-.details {
-  text-align: center;
-  font-size: 1em;
-}
-
-.details a {
-  text-decoration: none;
-  color: #e91f4f;
-  font-weight: 600;
-  font-family: 'Catamaran', sans-serif;
-}
-
-.details a:hover {
-  text-decoration: none;
-  color: #e91f4f;
-  opacity: 0.5;
-  transition: all .5s
+  padding: 1em;
+  text-align: justify;
 }
 
 @media (min-width: 992px) {
   .cube {
     height: 4em;
-  }
-}
-
-@media (min-width: 1200px) {
-  .jumbotron.jumbotron-fluid {
-    background-image: url('../img/img.png'), url('../img/mobile.jpg');
-    background-size: auto 130%, cover;
-    background-position: center left, center center;
   }
 }
