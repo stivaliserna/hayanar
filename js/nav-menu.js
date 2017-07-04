@@ -31,3 +31,5 @@ navMenu.addEventListener('blur', function () {
     navMenu.classList.remove('js-site-nav--open')
   }
 }, true)
+
+window.location.hash = window.location.hash || '#basic'
