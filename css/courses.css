@@ -1,16 +1,15 @@
 .courses-background {
-  background-image: url('../img/background.jpg');
-  width: 100%;
+  background-attachment: fixed;
+  background-image: url('../img/courses_background.jpg');
+  background-size: cover;
   height: 30em;
   height: calc(100vh - 300px);
   opacity: .9;
-  background-attachment: fixed;
-  background-size: cover;
+  width: 100%;
 }
 
 .cover {
-  margin-bottom: 1em;
-  margin-top: 3em;
+  margin-bottom: 3em 0 1em 0;
   text-align: center;
 }
 
