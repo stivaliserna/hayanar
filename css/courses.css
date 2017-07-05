@@ -4,6 +4,7 @@
   background-size: cover;
   height: 30em;
   height: calc(100vh - 300px);
+  margin-bottom: 3em;
   opacity: .9;
   width: 100%;
 }

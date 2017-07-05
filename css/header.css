@@ -38,14 +38,18 @@
 
 .site-nav ul li {
   font-family: 'Karla', sans-serif;
-  font-size: 4em;
+  font-size: 32px;
   font-weight: 600;
   list-style: none;
   padding-right: 1em;
   padding-top: .4em;
-  text-align: end;
   text-transform: uppercase;
 }
+
+.site-nav ul li a:active {
+  border-bottom: 2px solid #FFF;
+}
+
 
 .site-nav ul li a {
   color: #FFF;
@@ -129,5 +133,9 @@
 
   .site-nav .nav-btn-remove {
     left: 0;
+  }
+
+  .site-nav ul li {
+    font-size: 44px;
   }
 }
