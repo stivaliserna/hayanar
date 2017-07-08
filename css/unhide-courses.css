@@ -27,6 +27,7 @@
   height: 0;
   opacity: 0;
   padding: 0 1em 0 1em;
+  pointer-events: none;
   text-align: justify;
   transition: all 300ms ease-in-out 0s;
 }
@@ -35,9 +36,9 @@
   height: auto;
 }
 
-.type-of:target,
-.type-of:focus {
+.type-of:target {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .type-of .info {
