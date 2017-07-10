@@ -22,9 +22,10 @@
 
 .cover h4 {
   color: #555;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.8em;
   padding-top: .5em;
+  text-transform: uppercase;
 }
 
 .cover p {

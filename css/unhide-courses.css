@@ -9,7 +9,7 @@
 .course-info ul li a {
   font-family: 'Karla', sans-serif;
   color: #3d4542;
-  font-size: 1.2em;
+  font-size: .7em;
   font-weight: 600;
   transition: all .5s;
 }
@@ -70,4 +70,10 @@
 
 .type-of button:hover {
   background-color: #3d4542;
+}
+
+@media (min-width: 992px) {
+  .course-info ul li a {
+    font-size: 1.2em;
+  }
 }

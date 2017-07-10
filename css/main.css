@@ -1,74 +1,37 @@
-.full-background {
-  background-image: url('../img/home_background.jpg');
-  width: 100%;
-  height: calc(100vh - 300px);
-  opacity: .9;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-bottom: 2em;
+.cards {
+  padding: 0;
+  background-color: #292929;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about h1 {
-  color: #3d4542;
-  font-family: 'Pacifico', cursive;
+  color: #d4a2a9;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 4em;
-  margin-bottom: .4em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
 }
 
-.about p, ul li {
-  color: #555;
-  font-size: 1.7em;
-}
-
-.about p {
-  font-family: 'Karla', sans-serif;
-  padding-bottom: .4em;
-}
-
-.about ul {
-  padding-bottom: .4em;
-}
-
-.about ul li {
-  list-style: none;
-  padding-bottom: 1em;
-}
-
-.about ul li a {
-  color: #555;
-  text-decoration: none;
-  transition: all .5s;
-}
-
-.about ul li a:hover {
-  color: #f852a4;
-  opacity: .5;
-  text-decoration: none;
-}
-
-.about li i {
-  color: #aaa;
-  font-size: 1.2em;
-  padding-right: 1em;
-}
-
-.cards.container-fluid {
-  margin-top: .4em;
-  padding: 0;
+.about h4 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5em;
+  color: silver;
+  text-align: center;
+  font-style: italic;
 }
 
 @media (min-width: 992px) {
-  .cards.container-fluid {
-    margin-bottom: 3em;
-  }
-
   .about p, ul li {
     font-size: 1.5em;
   }
-}
 
-@media (min-width: 576px) and (max-width: 1200px) {
-  .full-background {
-    height: calc(100vh - 100px);
+  .about h1 {
+    font-size: 4em;
   }
 }

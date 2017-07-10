@@ -1,21 +1,13 @@
 .sticky-menu {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
-}
-
-.sticky-menu .nav {
-  width: 100%;
-}
-
-.scrolling {
-  background-color: #FFF;
+  background-color: #292929;
 }
 
 .site-nav {
-  background-color: #f852a4;
-  color: black;
+  background-color: #FFF;
   height: 100%;
   list-style-type: none;
   opacity: .7;
@@ -44,25 +36,25 @@
   padding-right: 1em;
   padding-top: .4em;
   text-transform: uppercase;
+  text-align: end;
 }
 
 .site-nav ul li a {
-  color: #FFF;
+  color: #292929;
   text-decoration: none;
   transition: all .5s;
 }
 
 .site-nav ul li a:hover {
-  color: #FFF;
+  color: #aaa;
   opacity: .4;
   text-decoration: none;
 }
 
 .icon-menu {
-  color: #555;
+  color: #d4a2a9;
   display: flex;
   font-size: 2em;
-  padding: .3em;
   justify-content: flex-end;
 }
 
@@ -87,14 +79,11 @@
 .site-nav .nav-btn-remove {
   background-color: transparent;
   border: none;
-  color: #FFF;
+  color: #292929;
   cursor: pointer;
   font-size: 2em;
-  padding: 1em;
+  padding: .8em;
   position: absolute;
-}
-.site-nav .nav-btn-remove {
-  left: 0;
 }
 
 @media (max-width: 992px) {
@@ -106,12 +95,16 @@
   .js-site-nav--open {
     left: 0;
   }
+
+  .site-nav .nav-btn-remove {
+    right: 0;
+  }
 }
 
 @media (min-width: 992px) {
   .site-nav {
-    right: -700px;
-    width: 700px;
+    right: -1000px;
+    width: 1000px;
   }
 
   .js-site-nav--open {
@@ -120,5 +113,18 @@
 
   .site-nav ul li {
     font-size: 44px;
+  }
+
+  .site-nav .nav-btn-remove {
+    left: 0;
+  }
+
+  .sticky-menu h4 {
+    font-size: 3em;
+  }
+
+  .sticky-menu p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
   }
 }
