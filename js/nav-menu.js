@@ -1,4 +1,4 @@
-var navToggle = document.getElementsByClassName('nav-btn-toggle')[0]
+var navToggle = document.getElementsByClassName('nav-btn-toggler')[0]
 var btnRemove = document.getElementsByClassName('nav-btn-remove')[0]
 var navMenu = document.getElementsByClassName('js-site-nav')[0]
 var isMouseDown = false

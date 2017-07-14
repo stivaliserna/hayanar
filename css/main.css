@@ -1,15 +1,40 @@
 .cards {
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #292929;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.panel-right-top,
+.panel-left-bottom {
+  background-size: cover;
 }
 
-.about h1 {
+.panels-top {
+  height: 100vh;
+}
+
+.panel-left-bottom {
+  height: calc(50vh - 49.335px)
+}
+
+.panel-right-bottom {
+  height: calc(50vh - 49.335px)
+}
+
+.panel-right-top {
+  background-image: url('../img/work02.jpg');
+}
+
+.panel-left-top,
+.panel-right-bottom,
+.panel-left-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.panel-left-top h1 {
   color: #d4a2a9;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 4em;
@@ -18,7 +43,7 @@
   text-align: center;
 }
 
-.about h4 {
+.panel-left-top h4 {
   font-family: 'Vollkorn', serif;
   font-size: 1.5em;
   color: silver;
@@ -26,12 +51,40 @@
   font-style: italic;
 }
 
-@media (min-width: 992px) {
-  .about p, ul li {
-    font-size: 1.5em;
+.panel-left-bottom {
+  background-image: url('../img/work01.jpg');
+}
+
+.panel-right-bottom article {
+  width: 60%;
+}
+
+.panel-right-bottom p {
+  color: #aaa;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 1.7em;
+}
+
+.panel-right-bottom span {
+  font-weight: 700;
+  color: silver;
+}
+
+.panel-left-bottom img {
+  width: 20em;
+}
+
+@media (min-width: 768px) {
+  .panel-right-bottom,
+  .panel-left-bottom {
+    height: calc(100vh - 49.578px)
   }
 
-  .about h1 {
-    font-size: 4em;
+  .panel-right-top,
+  .panel-left-bottom {
+    background-position: center center;
   }
 }
+
