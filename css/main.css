@@ -7,18 +7,17 @@
 .panel-right-top,
 .panel-left-bottom {
   background-size: cover;
+  background-position: center center;
 }
 
-.panels-top {
-  height: 100vh;
-}
-
+.panel-right-top,
+.panel-left-top,
 .panel-left-bottom {
-  height: calc(50vh - 49.335px)
+  min-height: 100vh;
 }
 
 .panel-right-bottom {
-  height: calc(50vh - 49.335px)
+  min-height: calc(100vh - 49.335px)
 }
 
 .panel-right-top {
@@ -80,11 +79,6 @@
   .panel-right-bottom,
   .panel-left-bottom {
     height: calc(100vh - 49.578px)
-  }
-
-  .panel-right-top,
-  .panel-left-bottom {
-    background-position: center center;
   }
 }
 
