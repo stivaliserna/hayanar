@@ -17,7 +17,7 @@
 }
 
 .panel-right-bottom {
-  min-height: calc(100vh - 49.335px)
+  min-height: calc(100vh - 99px)
 }
 
 .panel-right-top {
@@ -78,7 +78,7 @@
 @media (min-width: 768px) {
   .panel-right-bottom,
   .panel-left-bottom {
-    height: calc(100vh - 49.578px)
+    min-height: calc(100vh - 50px)
   }
 }
 
