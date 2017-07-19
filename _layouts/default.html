@@ -6,8 +6,8 @@
 
 	<title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Catamaran|Karla|Dancing+Script|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="//fonts.googleapis.com/css?family=Alegreya+Sans+SC|Catamaran|Karla|Dancing+Script|Oswald" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.github.url }}/css/icons.css">
   <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
   <!-- page specific stylesheets -->
@@ -51,8 +51,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-md-7 social">
-          <a href="https://www.instagram.com/makeupby.hr/"><i class="icon-instagram" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/HayaRC"><i class="icon-twitter" aria-hidden="true"></i></a>
+          <a href="//www.instagram.com/makeupby.hr/"><i class="icon-instagram" aria-hidden="true"></i></a>
+          <a href="//twitter.com/HayaRC"><i class="icon-twitter" aria-hidden="true"></i></a>
           <a href="mailto:makeupbyhayana@gmail.com"><i class="icon-gmail" aria-hidden="true"></i></a>
         </div>
         <div class="col-12 col-md-5 social">
@@ -62,13 +62,14 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="//cdn.rawgit.com/alicelieutier/smoothScroll/f07120e0/smoothscroll.min.js" defer></script>
 
   <!-- page specific scripts -->
   {% for script in page.scripts %}
-  <script src="{{ script | prepend: site.github.url }}"></script>
+  <script src="{{ script | prepend: site.github.url }}" defer></script>
   {% endfor %}
 
 </body>
