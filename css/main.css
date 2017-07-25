@@ -1,6 +1,8 @@
+body {
+  padding-top: 49px;
+}
+
 .cards {
-  padding-left: 0;
-  padding-right: 0;
   background-color: #292929;
 }
 
@@ -17,7 +19,7 @@
 }
 
 .panel-right-bottom {
-  min-height: calc(100vh - 99px)
+  min-height: calc(100vh - 99px);
 }
 
 .panel-right-top {

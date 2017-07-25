@@ -1,0 +1,51 @@
+.about-cards {
+  background-color: #292929;
+}
+
+.about-panel-left {
+  background-image: url('../img/about_left.jpg');
+  opacity: .8;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-panel-right,
+.about-panel-left {
+  min-height: calc(100vh - 99px);
+}
+
+.about-panel-right article {
+  width: 80%;
+  padding: 2em 0 2em 0;
+}
+
+.about-panel-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-panel-right p {
+  color: #aaa;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 1.7em;
+}
+
+.about-panel-right span {
+  font-weight: 700;
+  color: silver;
+}
+
+@media (min-width: 768px) {
+  .panel-right-bottom,
+  .panel-left-bottom {
+    min-height: calc(100vh - (50px + 49px))
+  }
+
+  .about-panel-right article {
+    width: 60%;
+  }
+}

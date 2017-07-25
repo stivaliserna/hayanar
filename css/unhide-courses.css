@@ -8,15 +8,14 @@
 
 .course-info ul li a {
   font-family: 'Karla', sans-serif;
-  color: #3d4542;
-  font-size: .7em;
+  color: #292929;
+  font-size: 1em;
   font-weight: 600;
   transition: all .5s;
 }
 
 .course-info ul li a:hover {
-  color: #f852a4;
-  opacity: .4;
+  color: #d4a2a9;
   text-decoration: none;
 }
 
@@ -51,9 +50,9 @@
 }
 
 .type-of button {
-  background-color: #f852a4;
-  border: none;
-  color: #FFF;
+  background-color: transparent;
+  border: 2px solid silver;
+  color: #d4a2a9;
   cursor: pointer;
   font-family: 'Catamaran', sans-serif;
   font-weight: 600;
@@ -61,7 +60,7 @@
   margin-top: 1em;
   padding: .9em;
   text-transform: uppercase;
-  transition: all .5s;
+  transition: all .9s;
 }
 
 .type-of button:focus {
@@ -69,7 +68,7 @@
 }
 
 .type-of button:hover {
-  background-color: #3d4542;
+  background-color: #eaeaed;
 }
 
 @media (min-width: 992px) {
