@@ -9,8 +9,11 @@
   background-position: center center;
 }
 
-.about-panel-right,
 .about-panel-left {
+  min-height: 100vh;
+}
+
+.about-panel-right {
   min-height: calc(100vh - 99px);
 }
 
@@ -39,9 +42,9 @@
   color: silver;
 }
 
-@media (min-width: 768px) {
-  .panel-right-bottom,
-  .panel-left-bottom {
+@media (min-width: 992px) {
+  .about-panel-right,
+  .about-panel-left {
     min-height: calc(100vh - (50px + 49px))
   }
 
