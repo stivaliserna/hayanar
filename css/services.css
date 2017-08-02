@@ -1,0 +1,29 @@
+.services img {
+  width: 20em;
+  border-radius: 50%;
+  padding: 2em;
+  display: block;
+  margin: 0 auto;
+}
+
+.services-title,
+.services-price {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.services-title {
+  color: #555;
+}
+
+.services-price {
+  color: #aaa;
+}
+
+@media (min-width: 992px) {
+  .services-title,
+  .services-price {
+    text-align: left;
+  }
+}
