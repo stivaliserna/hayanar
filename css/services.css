@@ -1,4 +1,26 @@
-.services img {
+.services h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  color: #d4a2a9;
+  background-color: #292929;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2em;
+  text-align: justify;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #727378;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  padding: 1em 0 1em 0;
+}
+
+.services-info img {
   width: 20em;
   border-radius: 50%;
   padding: 2em;
@@ -19,6 +41,32 @@
 
 .services-price {
   color: #aaa;
+}
+
+.services-info a:hover {
+  text-decoration: none;
+}
+
+.services-info button {
+  background-color: transparent;
+  border: 2px solid silver;
+  color: #d4a2a9;
+  cursor: pointer;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  padding: .9em;
+  text-transform: uppercase;
+  transition: all .9s;
+  display: block;
+  margin: 0 auto;
+}
+
+.services-info button:focus {
+  outline: none;
+}
+
+.services-info button:hover {
+  background-color: #eaeaed;
 }
 
 @media (min-width: 992px) {
